@@ -6,7 +6,9 @@ class CreateCostumes < ActiveRecord::Migration
 # 002_create_costumes.rb becomes class CreateCostumes
 
 def change
-  create_table costumes
+  create_table costumes do |t|
+    
+  end
 end
 
 
