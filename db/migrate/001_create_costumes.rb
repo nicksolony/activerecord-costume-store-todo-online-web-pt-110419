@@ -11,6 +11,7 @@ def change
     t.integer :price
     t.string :size
     t.string :image_url
+    t.timestamps
   end
 end
 
